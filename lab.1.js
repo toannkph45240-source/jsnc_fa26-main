@@ -1,5 +1,5 @@
 
-console.log("--- BÀI 1: KHAI BÁO BIẾN ---");
+console.log("-- BÀI 1: KHAI BÁO BIẾN --");
 
 const name = "Nguyễn Khánh Toàn";
 const age = 20;
@@ -12,7 +12,7 @@ console.log("Địa chỉ:", address);
 console.log("Sinh viên:", isStudent);
 
 
-console.log("--- BÀI 2: THAY ĐỔI GIÁ TRỊ ----");
+console.log("-- BÀI 2: THAY ĐỔI GIÁ TRỊ --");
 
 let oldAge = 20;
 
@@ -23,7 +23,7 @@ oldAge = 21;
 console.log(oldAge);
 
 
-console.log("--- BÀI 3: TÍNH TOÁN VỚI BIẾN ---");
+console.log("-- BÀI 3: TÍNH TOÁN VỚI BIẾN --");
 
 const a = 10;
 const b = 5;
@@ -44,7 +44,7 @@ sayHello("Bình");
 sayHello("Toàn");
 
 
-console.log("--- BÀI 5: HÀM TÍNH TỔNG ---");
+console.log("-- BÀI 5: HÀM TÍNH TỔNG --");
 
 function sum(a, b) {
     return a + b;
@@ -55,7 +55,7 @@ const result = sum(10, 20);
 console.log(result);
 
 
-console.log("\n===== BÀI 6: HÀM TÍNH TIỀN =====");
+console.log("-- BÀI 6: HÀM TÍNH TIỀN ---");
 
 function calculateTotal(price, quantity) {
     return price * quantity;
@@ -66,7 +66,7 @@ const total = calculateTotal(50000, 3);
 console.log(total);
 
 
-console.log("---- BÀI 7: TÍNH ĐIỂM TRUNG BÌNH ----");
+console.log("--- BÀI 7: TÍNH ĐIỂM TRUNG BÌNH ---");
 
 function calculateAverage(math, english, javascript) {
     return (math + english + javascript) / 3;
